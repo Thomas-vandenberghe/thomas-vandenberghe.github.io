@@ -1,0 +1,76 @@
+Body{
+  background-color: rgb(230, 205, 173);
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+.principal {
+
+    display: block;
+    border: solid black 2px;
+    font: 1rem 'Fira Sans', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 200px;
+}
+.principal:hover{
+display: block;
+}
+
+.apercu {
+    border: solid black 2px;
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+    bottom: 0;
+    width: 90%;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    pointer-events: none;
+    background-color:rgb(255, 255, 255) ;
+  
+  }
+  .loader{
+      display: none;
+      background-repeat: no-repeat;
+      margin:0px;
+      padding: 0px;
+      height: 180px;
+      width: 200px;
+      background-image: url(Eclipse-1s-200px.gif);
+  }
+
+ 
+ #charcount{
+    color: rgb(0, 4, 7); 
+    font-size: 20px;
+    background-color: rgb(112, 216, 248);
+    font-weight: bold;
+    margin: top 500px;
+    margin-left:auto;
+    margin-right: auto;
+    float: right;
+    border:solid black 2px;
+  }
+
+  #progress {
+    width: 91%;
+    background-color: rgb(197, 197, 197);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #emptyBar {
+    width: 0%;
+    height: 10px;
+    background-color: green;
+  }
+
+  #bold{
+    margin-left: 100px;
+    display: block;
+    margin-bottom: 5px;
+  }
