@@ -57,9 +57,39 @@ else if (percent >= 160  && percent <= 200){
 document.getElementById("emptyBar").style.backgroundColor="red";  
 }
 }
+// bouton gras//
 
-let btn = document.getElementById("bold");
+let bold = document.querySelector("#bold");
+bold.addEventListener("click",function(){
+principal.value = principal.value + "<b></b>"
+})
 
-btn.addEventListener("click", function(){
-apercu.classList.toggle("bold");
-});
+// bouton italic//
+let italic = document.querySelector("#italic");
+italic.addEventListener("click",function(){
+principal.value = principal.value + "<i></i>"
+})
+
+//bouton clear//
+let clearall = document.querySelector("#clearall");
+clearall.addEventListener("click",function(){
+principal.value = ""
+
+})
+
+// let darkmode = document.querySelector(".darkmode");
+// darkmode.addEventListener("click", function(){
+//   link.innerHTML = '<link rel="stylesheet" href ="darkmode.css">';
+// })
+
+
+const switchDarkMode = document.querySelector("#switch");
+switchDarkMode.addEventListener("change", function (){
+if (switchDarkMode.checked===true){
+  link.innerHTML = '<link rel="stylesheet" href ="darkmode.css">'
+}
+else {
+  link.innerHTML = '<link rel="stylesheet" href ="./style.css">'
+}
+
+})

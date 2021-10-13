@@ -9,11 +9,13 @@ h1{
 
     display: block;
     border: solid black 2px;
-    font: 1rem 'Fira Sans', sans-serif;
+    font: 1.5rem 'Fira Sans', sans-serif;
     margin-left: auto;
     margin-right: auto;
     width: 90%;
     height: 200px;
+    border-radius: 10px;
+    background-color: rgb(230, 215, 215)
 }
 .principal:hover{
 display: block;
@@ -22,7 +24,7 @@ display: block;
 .apercu {
     border: solid black 2px;
     display: block;
-    font: 1rem 'Fira Sans', sans-serif;
+    font: 1.5rem 'Fira Sans', sans-serif;
     bottom: 0;
     width: 90%;
     height: 200px;
@@ -30,7 +32,8 @@ display: block;
     margin-left: auto;
     margin-right: auto;
     pointer-events: none;
-    background-color:rgb(255, 255, 255) ;
+    background-color:rgb(230, 215, 215) ;
+    border-radius: 10px;
   
   }
   .loader{
@@ -61,16 +64,58 @@ display: block;
     background-color: rgb(197, 197, 197);
     margin-left: auto;
     margin-right: auto;
+    border-radius: 10px;
   }
   
   #emptyBar {
     width: 0%;
-    height: 10px;
+    height: 15px;
     background-color: green;
+    border-radius: 10px;
   }
 
   #bold{
     margin-left: 100px;
-    display: block;
+    display: inline;
     margin-bottom: 5px;
+    background-color: cadetblue;
+  }
+  #italic{
+    margin-left: 10px;
+    display: inline;
+    margin-bottom: 5px;
+    background-color: cadetblue;
+
+  }
+  #clearall{
+    margin-left: 10px;
+    display: inline;
+    margin-bottom: 5px;
+    background-color: cadetblue;
+  }
+
+  .darkmode{
+    float: right;
+    background-color: rgb(18, 27, 44);
+    color:rgb(200, 195, 147);
+    height: 50px;
+    font-weight: bold;
+  }
+  .darkbtn{
+    float: right;
+    border: black solid 1px;
+    color: rgb(240, 228, 209);
+    background-color: rgb(68, 67, 67);
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+  }
+  #switch{
+    width: 30px;
+    height: 30px;
+    vertical-align:middle;
+
   }

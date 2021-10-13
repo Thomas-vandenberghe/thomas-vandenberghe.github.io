@@ -1,0 +1,123 @@
+Body{
+    background-color: rgb(61, 59, 56);
+  }
+  h1{
+      text-align: center;
+      font-size: 50px;
+      color: rgb(227, 240, 168);
+  }
+  .principal {
+  
+      display: block;
+      border: solid rgb(202, 200, 200) 2px;
+      font: 1.5rem 'Fira Sans', sans-serif;
+      margin-left: auto;
+      margin-right: auto;
+      width: 90%;
+      height: 200px;
+      border-radius: 10px;
+      background-color:rgb(61, 59, 56) ;
+      color: rgb(202, 200, 200)
+  }
+  .principal:hover{
+  display: block;
+  }
+  
+  .apercu {
+      border: solid rgb(202, 200, 200) 2px;
+      display: block;
+      font: 1.5rem 'Fira Sans', sans-serif;
+      bottom: 0;
+      width: 90%;
+      height: 200px;
+      margin-top: 30px;
+      margin-left: auto;
+      margin-right: auto;
+      pointer-events: none;
+      background-color:rgb(61, 59, 56) ;
+      border-radius: 10px;
+     color: rgb(202, 200, 200);
+    
+    }
+    .loader{
+        display: none;
+        background-repeat: no-repeat;
+        margin:0px;
+        padding: 0px;
+        height: 180px;
+        width: 200px;
+        background-image: url(Eclipse-1s-200px.gif);
+    }
+  
+   
+   #charcount{
+      color: rgb(210, 215, 219); 
+      font-size: 20px;
+      background-color: rgb(2, 50, 65);
+      font-weight: bold;
+      margin: top 500px;
+      margin-left:auto;
+      margin-right: auto;
+      float: right;
+      border:solid   rgb(202, 200, 200) 2px;
+    }
+  
+    #progress {
+      width: 91%;
+      background-color: rgb(197, 197, 197);
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 10px;
+    }
+    
+    #emptyBar {
+      width: 0%;
+      height: 15px;
+      background-color: rgb(55, 88, 55);
+      border-radius: 10px;
+    }
+  
+    #bold{
+      margin-left: 100px;
+      display: inline;
+      margin-bottom: 5px;
+      background-color: cadetblue;
+    }
+    #italic{
+      margin-left: 10px;
+      display: inline;
+      margin-bottom: 5px;
+      background-color: cadetblue;
+  
+    }
+    #clearall{
+      margin-left: 10px;
+      display: inline;
+      margin-bottom: 5px;
+      background-color: cadetblue;
+    }
+    .darkmode{
+      float: right;
+      background-color: rgb(18, 27, 44);
+      color:rgb(255, 255, 255);
+      height: 50px;
+      font-weight: bold;
+    }
+    .darkbtn{
+      float: right;
+      border: rgb(241, 237, 237) solid 1px;
+      color: rgb(192, 179, 161);
+      background-color: rgb(68, 67, 67);
+      font-weight: bold;
+      font-size: 25px;
+      border-radius: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+    
+    }
+    #switch{
+    width: 30px;
+    height: 30px;
+    vertical-align:middle;
+
+  }

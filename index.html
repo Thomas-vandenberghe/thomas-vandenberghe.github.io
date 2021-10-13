@@ -4,26 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projet-2</title>
-    <link rel="stylesheet" href="./style.css">
+   <div  id="link"><link rel="stylesheet" href="./style.css"></div> 
 </head>
 <body>
 
     <h1>Editeur html/css en live</h1>
-<button id=bold>B</button>
+    <div class= "darkbtn">DarkMode<input type="checkbox"  id= "switch"></div><br>
+<button type="button" id=bold><strong>B</strong></button>
+<button type="button" id=italic><i>I</i></button>
+<button type="button" id=clearall><i>Clear</i></button>
     <textarea maxlength="200" name = "ton code" class="principal" contenteditable="false" onkeyup="charcountupdate(this.value)"></textarea> <!--onkeyup="charcountupdate(this.value)" -->
     
     <div id="progress">
         <div id="emptyBar"></div>
       </div>
 
-      <span id=charcount></span>
+      <span id=charcount>0/200</span>
 
     <div class="apercu" > </div>
 
    <div class="loader"><img src="Eclipse-1s-200px.gif" class="loader"></div>
     
+   
  
  <footer>
+    
   
 </footer>
     <script type="text/javascript" src="./app.js"></script>
